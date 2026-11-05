@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ajouter ou soustraire des dizaines</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:22px 16px 30px;background:#f2f4f7;color:#202733;font-family:Arial,Helvetica,sans-serif}
+main{max-width:1000px;margin:0 auto;background:#fff;padding:26px 30px 24px;border-radius:14px;box-shadow:0 3px 18px #17203312}
+h1{text-align:center;font-size:1.55rem;margin:0 0 7px}.instruction{text-align:center;color:#586273;margin:0 0 25px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:24px;row-gap:13px}
+.problem{display:flex;align-items:center;gap:7px;min-height:42px;font-size:1.2rem;white-space:nowrap}
+.number{width:22px;color:#8993a2;font-size:.85rem;text-align:right;flex:0 0 22px}
+.expression{font-variant-numeric:tabular-nums;min-width:94px}
+.answer{width:76px;height:36px;border:1.5px solid #9aa5b3;border-radius:5px;text-align:center;font-size:1.15rem;padding:2px 4px;outline:none}
+.answer:focus{border:2px solid #3977c8}.answer.correct{border:2px solid #16833b;background:#eaffef;color:#086b2b}.answer.wrong{border:2px solid #c92d2d;background:#fff0f0;color:#b21f1f}
+.controls{display:flex;justify-content:center;align-items:center;gap:12px;margin-top:28px;flex-wrap:wrap}
+button,.back{border:0;border-radius:8px;padding:11px 22px;font-size:1rem;cursor:pointer;text-decoration:none}
+button{background:#176b37;color:white}button:hover{background:#12572d}.back{background:#e8edf2;color:#263244}#score{min-width:110px;text-align:center;font-weight:600;color:#374151}
+@media(max-width:700px){main{padding:22px 14px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:12px}.problem{gap:5px;font-size:1.05rem}.expression{min-width:78px}.answer{width:62px}}
+@media(max-width:420px){.grid{grid-template-columns:1fr}.problem{max-width:260px;margin:auto;width:100%}}
+@media print{body{background:white;padding:0}main{box-shadow:none;border-radius:0;max-width:none;padding:8mm}.controls{display:none}.grid{row-gap:8mm}.problem{font-size:14pt}.answer{border:1px solid #555;height:9mm}}
+</style></head><body><main>
+<h1>Ajouter ou soustraire des dizaines</h1><p class="instruction">Effectue les 30 calculs, puis clique sur « Vérifier ».</p>
+<div id="grid" class="grid" aria-label="Les 30 calculs"></div>
+<div class="controls"><button id="check" type="button">Vérifier</button><span id="score" aria-live="polite"></span><a class="back" href="index.html">Retour</a></div>
+</main>
+<script>
+(() => {
+ const kind="tens", grid=document.getElementById("grid"), score=document.getElementById("score");
+ const rnd=(a,b)=>Math.floor(Math.random()*(b-a+1))+a;
+ function makeOne(op){
+   const operand=kind==="tens"?10*rnd(1,9):10*rnd(0,9)+9;
+   const start=op==="-"?rnd(operand,99):rnd(0,99);
+   return {start,op,operand,result:op==="+"?start+operand:start-operand};
+ }
+ const items=[],seen=new Set();
+ for(const op of ["+","-"]) {
+   let n=0,tries=0;
+   while(n<15&&tries<5000){tries++;const x=makeOne(op),key=`${x.start}${x.op}${x.operand}`;
+     if(!seen.has(key)){seen.add(key);items.push(x);n++;}}
+ }
+ for(let i=items.length-1;i>0;i--){const j=rnd(0,i);[items[i],items[j]]=[items[j],items[i]];}
+ items.forEach((x,i)=>{
+   const row=document.createElement("label");row.className="problem";
+   const num=document.createElement("span");num.className="number";num.textContent=(i+1)+".";
+   const expr=document.createElement("span");expr.className="expression";expr.textContent=`${x.start} ${x.op} ${x.operand} =`;
+   const input=document.createElement("input");input.className="answer";input.type="text";input.inputMode="numeric";input.autocomplete="off";input.setAttribute("aria-label",`Réponse au calcul ${i+1}`);
+   input.addEventListener("input",()=>{input.classList.remove("correct","wrong");score.textContent="";});
+   row.append(num,expr,input);grid.append(row);
+ });
+ document.getElementById("check").addEventListener("click",()=>{
+   let good=0;grid.querySelectorAll(".answer").forEach((input,i)=>{
+     const s=input.value.trim(),ok=s!==""&&/^\d+$/.test(s)&&Number(s)===items[i].result;
+     input.classList.toggle("correct",ok);input.classList.toggle("wrong",!ok);if(ok)good++;
+   });score.textContent=`${good} / 30 corrects`;
+ });
+})();
+</script></body></html>
