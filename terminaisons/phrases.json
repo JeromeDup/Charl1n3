@@ -1,0 +1,1391 @@
+[
+  {
+    "id": "phrase_0001",
+    "category": "PRES3",
+    "source_line": 64,
+    "text": "Le petit garçon joue avec son chien dans le jardin.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 15
+      }
+    ],
+    "verbs": [
+      {
+        "start": 16,
+        "end": 20
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 7,
+        "answer": "t",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 19,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 50,
+        "answer": "",
+        "answer_length": 0
+      }
+    ],
+    "svg": "phrases_svg/phrase_0001.svg"
+  },
+  {
+    "id": "phrase_0002",
+    "category": "PRES3",
+    "source_line": 66,
+    "text": "Les jeunes enfants jouent dans la cour de récréation.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 18
+      }
+    ],
+    "verbs": [
+      {
+        "start": 19,
+        "end": 25
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 9,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 16,
+        "answer": "ts",
+        "answer_length": 2
+      },
+      {
+        "plain_start": 22,
+        "answer": "ent",
+        "answer_length": 3
+      }
+    ],
+    "svg": "phrases_svg/phrase_0002.svg"
+  },
+  {
+    "id": "phrase_0003",
+    "category": "PRES3",
+    "source_line": 68,
+    "text": "La petite fille ramasse des feuilles près du portail.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 15
+      }
+    ],
+    "verbs": [
+      {
+        "start": 16,
+        "end": 23
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 7,
+        "answer": "te",
+        "answer_length": 2
+      },
+      {
+        "plain_start": 22,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 35,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0003.svg"
+  },
+  {
+    "id": "phrase_0004",
+    "category": "PRES3",
+    "source_line": 70,
+    "text": "La maîtresse prépare une activité pour les élèves.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 12
+      }
+    ],
+    "verbs": [
+      {
+        "start": 13,
+        "end": 20
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 19,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 48,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0004.svg"
+  },
+  {
+    "id": "phrase_0005",
+    "category": "PRES3",
+    "source_line": 72,
+    "text": "Les grands frères préparent le goûter dans la cuisine.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 17
+      }
+    ],
+    "verbs": [
+      {
+        "start": 18,
+        "end": 27
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 9,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 16,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 24,
+        "answer": "ent",
+        "answer_length": 3
+      }
+    ],
+    "svg": "phrases_svg/phrase_0005.svg"
+  },
+  {
+    "id": "phrase_0006",
+    "category": "PRES3",
+    "source_line": 74,
+    "text": "Le facteur dépose trois lettres dans la boîte.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 10
+      }
+    ],
+    "verbs": [
+      {
+        "start": 11,
+        "end": 17
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 16,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 30,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0006.svg"
+  },
+  {
+    "id": "phrase_0007",
+    "category": "PRES3",
+    "source_line": 76,
+    "text": "Les voisins plantent des rosiers devant leur maison.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "verbs": [
+      {
+        "start": 12,
+        "end": 20
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 10,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 17,
+        "answer": "ent",
+        "answer_length": 3
+      },
+      {
+        "plain_start": 31,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0007.svg"
+  },
+  {
+    "id": "phrase_0008",
+    "category": "PRES3",
+    "source_line": 78,
+    "text": "Le petit chat  observe les oiseaux depuis la fenêtre.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 14
+      }
+    ],
+    "verbs": [
+      {
+        "start": 15,
+        "end": 22
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 7,
+        "answer": "t",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 13,
+        "answer": "",
+        "answer_length": 0
+      },
+      {
+        "plain_start": 21,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 33,
+        "answer": "x",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0008.svg"
+  },
+  {
+    "id": "phrase_0009",
+    "category": "PRES3",
+    "source_line": 80,
+    "text": "Un chaton regarde les chaussures posées près de la porte.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 9
+      }
+    ],
+    "verbs": [
+      {
+        "start": 10,
+        "end": 17
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 9,
+        "answer": "",
+        "answer_length": 0
+      },
+      {
+        "plain_start": 16,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 31,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 37,
+        "answer": "es",
+        "answer_length": 2
+      }
+    ],
+    "svg": "phrases_svg/phrase_0009.svg"
+  },
+  {
+    "id": "phrase_0010",
+    "category": "PRES3",
+    "source_line": 82,
+    "text": "Les parents rangent les vêtements dans les armoires.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "verbs": [
+      {
+        "start": 12,
+        "end": 19
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 10,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 16,
+        "answer": "ent",
+        "answer_length": 3
+      },
+      {
+        "plain_start": 32,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 50,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0010.svg"
+  },
+  {
+    "id": "phrase_0011",
+    "category": "PRES3",
+    "source_line": 89,
+    "text": "Le chien cherche son jouet sous le meuble.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 8
+      }
+    ],
+    "verbs": [
+      {
+        "start": 9,
+        "end": 16
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 15,
+        "answer": "e",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0011.svg"
+  },
+  {
+    "id": "phrase_0012",
+    "category": "PRES3",
+    "source_line": 91,
+    "text": "Les poules  picorent des grains dans la cour.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "verbs": [
+      {
+        "start": 12,
+        "end": 20
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 9,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 17,
+        "answer": "ent",
+        "answer_length": 3
+      },
+      {
+        "plain_start": 30,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0012.svg"
+  },
+  {
+    "id": "phrase_0013",
+    "category": "PRES3",
+    "source_line": 93,
+    "text": "La petite tortue avance lentement vers les jolies fleurs.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 16
+      }
+    ],
+    "verbs": [
+      {
+        "start": 17,
+        "end": 23
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 8,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 22,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 47,
+        "answer": "es",
+        "answer_length": 2
+      },
+      {
+        "plain_start": 55,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0013.svg"
+  },
+  {
+    "id": "phrase_0014",
+    "category": "PRES3",
+    "source_line": 95,
+    "text": "Les poissons rouges nagent dans un grand aquarium .",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 19
+      }
+    ],
+    "verbs": [
+      {
+        "start": 20,
+        "end": 26
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 11,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 18,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 23,
+        "answer": "ent",
+        "answer_length": 3
+      },
+      {
+        "plain_start": 40,
+        "answer": "",
+        "answer_length": 0
+      },
+      {
+        "plain_start": 49,
+        "answer": "",
+        "answer_length": 0
+      }
+    ],
+    "svg": "phrases_svg/phrase_0014.svg"
+  },
+  {
+    "id": "phrase_0015",
+    "category": "PRES3",
+    "source_line": 97,
+    "text": "Un lapin  grignote une feuille tendre près du buisson.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 9
+      }
+    ],
+    "verbs": [
+      {
+        "start": 10,
+        "end": 18
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 8,
+        "answer": "",
+        "answer_length": 0
+      },
+      {
+        "plain_start": 17,
+        "answer": "e",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0015.svg"
+  },
+  {
+    "id": "phrase_0016",
+    "category": "PRES3",
+    "source_line": 99,
+    "text": "Les écureuils  grimpent dans les arbres.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 14
+      }
+    ],
+    "verbs": [
+      {
+        "start": 15,
+        "end": 23
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 12,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 20,
+        "answer": "ent",
+        "answer_length": 3
+      },
+      {
+        "plain_start": 38,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0016.svg"
+  },
+  {
+    "id": "phrase_0017",
+    "category": "PRES3",
+    "source_line": 101,
+    "text": "Le renard traverse le champ et observe les lapins.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 9
+      }
+    ],
+    "verbs": [
+      {
+        "start": 10,
+        "end": 18
+      },
+      {
+        "start": 31,
+        "end": 38
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 9,
+        "answer": "",
+        "answer_length": 0
+      },
+      {
+        "plain_start": 17,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 37,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 48,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0017.svg"
+  },
+  {
+    "id": "phrase_0018",
+    "category": "PRES3",
+    "source_line": 103,
+    "text": "Les papillons jaunes volent au-dessus des fleurs.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 20
+      }
+    ],
+    "verbs": [
+      {
+        "start": 21,
+        "end": 27
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 12,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 19,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 24,
+        "answer": "ent",
+        "answer_length": 3
+      },
+      {
+        "plain_start": 47,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0018.svg"
+  },
+  {
+    "id": "phrase_0019",
+    "category": "PRES3",
+    "source_line": 110,
+    "text": "Le vent froid souffle et les branches bougent.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 13
+      }
+    ],
+    "verbs": [
+      {
+        "start": 14,
+        "end": 21
+      },
+      {
+        "start": 38,
+        "end": 45
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 12,
+        "answer": "d",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 20,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 36,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 42,
+        "answer": "ent",
+        "answer_length": 3
+      }
+    ],
+    "svg": "phrases_svg/phrase_0019.svg"
+  },
+  {
+    "id": "phrase_0020",
+    "category": "PRES3",
+    "source_line": 112,
+    "text": "Les nuages blancs cachent le soleil.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 17
+      }
+    ],
+    "verbs": [
+      {
+        "start": 18,
+        "end": 25
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 9,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 15,
+        "answer": "cs",
+        "answer_length": 2
+      },
+      {
+        "plain_start": 22,
+        "answer": "ent",
+        "answer_length": 3
+      }
+    ],
+    "svg": "phrases_svg/phrase_0020.svg"
+  },
+  {
+    "id": "phrase_0021",
+    "category": "PRES3",
+    "source_line": 114,
+    "text": "La pluie mouille les chemins et les feuilles.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 8
+      }
+    ],
+    "verbs": [
+      {
+        "start": 9,
+        "end": 16
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 15,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 27,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 43,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0021.svg"
+  },
+  {
+    "id": "phrase_0022",
+    "category": "PRES3",
+    "source_line": 116,
+    "text": "Les fleurs jaunes poussent près du vieux mur.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 17
+      }
+    ],
+    "verbs": [
+      {
+        "start": 18,
+        "end": 26
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 9,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 16,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 23,
+        "answer": "ent",
+        "answer_length": 3
+      }
+    ],
+    "svg": "phrases_svg/phrase_0022.svg"
+  },
+  {
+    "id": "phrase_0023",
+    "category": "PRES3",
+    "source_line": 118,
+    "text": "Le soleil réchauffe les petits cailloux et la terre.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 9
+      }
+    ],
+    "verbs": [
+      {
+        "start": 10,
+        "end": 19
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 18,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 28,
+        "answer": "ts",
+        "answer_length": 2
+      }
+    ],
+    "svg": "phrases_svg/phrase_0023.svg"
+  },
+  {
+    "id": "phrase_0024",
+    "category": "PRES3",
+    "source_line": 120,
+    "text": "Les feuilles mortes tombent doucement sur le chemin.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 19
+      }
+    ],
+    "verbs": [
+      {
+        "start": 20,
+        "end": 27
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 11,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 18,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 24,
+        "answer": "ent",
+        "answer_length": 3
+      }
+    ],
+    "svg": "phrases_svg/phrase_0024.svg"
+  },
+  {
+    "id": "phrase_0025",
+    "category": "PRES3",
+    "source_line": 127,
+    "text": "Les cyclistes pédalent sur une route étroite.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 13
+      }
+    ],
+    "verbs": [
+      {
+        "start": 14,
+        "end": 22
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 12,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 19,
+        "answer": "ent",
+        "answer_length": 3
+      },
+      {
+        "plain_start": 42,
+        "answer": "te",
+        "answer_length": 2
+      }
+    ],
+    "svg": "phrases_svg/phrase_0025.svg"
+  },
+  {
+    "id": "phrase_0026",
+    "category": "PRES3",
+    "source_line": 129,
+    "text": "Le garçon lance le ballon vers les buts.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 9
+      }
+    ],
+    "verbs": [
+      {
+        "start": 10,
+        "end": 15
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 14,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 38,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0026.svg"
+  },
+  {
+    "id": "phrase_0027",
+    "category": "PRES3",
+    "source_line": 131,
+    "text": "Les joueurs courent derrière la balle.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "verbs": [
+      {
+        "start": 12,
+        "end": 19
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 10,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 16,
+        "answer": "ent",
+        "answer_length": 3
+      }
+    ],
+    "svg": "phrases_svg/phrase_0027.svg"
+  },
+  {
+    "id": "phrase_0028",
+    "category": "PRES3",
+    "source_line": 133,
+    "text": "La petite équipe prépare le match avec les entraîneurs.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 16
+      }
+    ],
+    "verbs": [
+      {
+        "start": 17,
+        "end": 24
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 7,
+        "answer": "te",
+        "answer_length": 2
+      },
+      {
+        "plain_start": 23,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 53,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0028.svg"
+  },
+  {
+    "id": "phrase_0029",
+    "category": "PRES3",
+    "source_line": 135,
+    "text": "Les enfants construisent une cabane avec des branches.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "verbs": [
+      {
+        "start": 12,
+        "end": 24
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 10,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 21,
+        "answer": "ent",
+        "answer_length": 3
+      },
+      {
+        "plain_start": 52,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0029.svg"
+  },
+  {
+    "id": "phrase_0030",
+    "category": "PRES3",
+    "source_line": 142,
+    "text": "Le cuisinier coupe les pommes et prépare une tarte.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 12
+      }
+    ],
+    "verbs": [
+      {
+        "start": 13,
+        "end": 18
+      },
+      {
+        "start": 33,
+        "end": 40
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 17,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 28,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 39,
+        "answer": "e",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0030.svg"
+  },
+  {
+    "id": "phrase_0031",
+    "category": "PRES3",
+    "source_line": 144,
+    "text": "Les enfants mélangent la farine et les œufs.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "verbs": [
+      {
+        "start": 12,
+        "end": 21
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 10,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 18,
+        "answer": "ent",
+        "answer_length": 3
+      },
+      {
+        "plain_start": 30,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 42,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0031.svg"
+  },
+  {
+    "id": "phrase_0032",
+    "category": "PRES3",
+    "source_line": 146,
+    "text": "Un poussin observe les insectes sous les feuilles.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 10
+      }
+    ],
+    "verbs": [
+      {
+        "start": 11,
+        "end": 18
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 10,
+        "answer": "",
+        "answer_length": 0
+      },
+      {
+        "plain_start": 17,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 30,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 48,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0032.svg"
+  },
+  {
+    "id": "phrase_0033",
+    "category": "PRES3",
+    "source_line": 148,
+    "text": "Les petits gâteaux refroidissent sur la table.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 18
+      }
+    ],
+    "verbs": [
+      {
+        "start": 19,
+        "end": 32
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 8,
+        "answer": "ts",
+        "answer_length": 2
+      },
+      {
+        "plain_start": 17,
+        "answer": "x",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 29,
+        "answer": "ent",
+        "answer_length": 3
+      }
+    ],
+    "svg": "phrases_svg/phrase_0033.svg"
+  },
+  {
+    "id": "phrase_0034",
+    "category": "PRES3",
+    "source_line": 155,
+    "text": "Le dragon crache une flamme bleue devant les chevaliers.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 9
+      }
+    ],
+    "verbs": [
+      {
+        "start": 10,
+        "end": 16
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 15,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 32,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 54,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0034.svg"
+  },
+  {
+    "id": "phrase_0035",
+    "category": "PRES3",
+    "source_line": 157,
+    "text": "Les licornes galopent dans une forêt enchantée.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 12
+      }
+    ],
+    "verbs": [
+      {
+        "start": 13,
+        "end": 21
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 11,
+        "answer": "s",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 18,
+        "answer": "ent",
+        "answer_length": 3
+      },
+      {
+        "plain_start": 45,
+        "answer": "e",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0035.svg"
+  },
+  {
+    "id": "phrase_0036",
+    "category": "PRES3",
+    "source_line": 159,
+    "text": "Un petit robot nettoie la maison et range les jouets.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 14
+      }
+    ],
+    "verbs": [
+      {
+        "start": 15,
+        "end": 22
+      },
+      {
+        "start": 36,
+        "end": 41
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 7,
+        "answer": "t",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 21,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 40,
+        "answer": "e",
+        "answer_length": 1
+      },
+      {
+        "plain_start": 51,
+        "answer": "s",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0036.svg"
+  },
+  {
+    "id": "phrase_0037",
+    "category": "PRES3",
+    "source_line": 161,
+    "text": "Les souris préparent un grand banquet pour le chat.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 10
+      }
+    ],
+    "verbs": [
+      {
+        "start": 11,
+        "end": 20
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 17,
+        "answer": "ent",
+        "answer_length": 3
+      }
+    ],
+    "svg": "phrases_svg/phrase_0037.svg"
+  },
+  {
+    "id": "phrase_0038",
+    "category": "PRES3",
+    "source_line": 163,
+    "text": "Un chaton conduit un petit camion rouge dans le salon.",
+    "subjects": [
+      {
+        "start": 0,
+        "end": 9
+      }
+    ],
+    "verbs": [
+      {
+        "start": 10,
+        "end": 17
+      }
+    ],
+    "targets": [
+      {
+        "plain_start": 9,
+        "answer": "",
+        "answer_length": 0
+      },
+      {
+        "plain_start": 16,
+        "answer": "t",
+        "answer_length": 1
+      }
+    ],
+    "svg": "phrases_svg/phrase_0038.svg"
+  }
+]
