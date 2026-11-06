@@ -1,0 +1,163 @@
+# ============================================================
+# BIBLIOTHEQUE DE PHRASES - NIVEAU 1
+# ============================================================
+#
+# CATEGORIE : PRES3
+# Présent de l'indicatif - 3e personne du singulier et du pluriel
+#
+# REGLES D'ANNOTATION
+#
+# & ... &
+#   Délimite le sujet de la phrase.
+#   Exemple : &Les petits chats& *mangent dans le jardin.
+#
+# *
+#   Placé immédiatement avant un verbe conjugué.
+#   Exemple : *mang/ent
+#
+# /
+#   Indique le début de la terminaison à travailler.
+#
+#   VERBES :
+#     Placer / avant la terminaison verbale.
+#     Exemple : *mang/e ou *mang/ent
+#
+#   ADJECTIFS :
+#     Placer / avant la lettre ou les lettres muettes.
+#     Exemples : peti/t, petit/e, petit/s
+#
+#   NOMS :
+#     Si la consonne finale muette peut être retrouvée
+#     grâce à un mot de la même famille, placer / avant.
+#     Exemple : cha/t (chaton).
+#
+#     Pour une marque grammaticale ajoutée après cette
+#     consonne, placer / avant la marque.
+#     Exemple : chat/s
+#
+#   TERMINAISON VIDE :
+#     Placer / à la fin du mot.
+#     Exemple : chaton/
+#     Cela signifie qu'aucune lettre ne doit être ajoutée.
+#
+# Les annotations peuvent se cumuler.
+# Toutes les terminaisons annotées ne sont pas forcément
+# demandées dans un même exercice.
+#
+# OBJECTIF :
+# 3 à 5 phrases par exercice.
+# 2 à 4 terminaisons potentielles par phrase.
+# Environ 10 à 15 réponses par exercice.
+#
+# Pool composé majoritairement de situations réalistes,
+# avec quelques phrases imaginaires ou humoristiques.
+#
+# ============================================================
+
+
+[PRES3]
+
+# ------------------------------------------------------------
+# VIE QUOTIDIENNE, FAMILLE ET ECOLE
+# ------------------------------------------------------------
+
+&Le peti/t garçon& *jou/e avec son chien dans le jardin/ .
+
+&Les jeune/s enfan/ts& *jou/ent dans la cour de récréation.
+
+&La peti/te fille& *ramass/e des feuille/s près du portail.
+
+&La maîtresse& *prépar/e une activité pour les élève/s.
+
+&Les grand/s frère/s& *prépar/ent le goûter dans la cuisine.
+
+&Le facteur& *dépos/e trois lettre/s dans la boîte.
+
+&Les voisin/s& *plant/ent des rosier/s devant leur maison.
+
+&Le peti/t chat/ & *observ/e les oiseau/x depuis la fenêtre.
+
+&Un chaton/& *regard/e les chaussure/s posé/es près de la porte.
+
+&Les parent/s& *rang/ent les vêtement/s dans les armoire/s.
+
+
+# ------------------------------------------------------------
+# ANIMAUX
+# ------------------------------------------------------------
+
+&Le chien& *cherch/e son jouet sous le meuble.
+
+&Les poule/s & *picor/ent des grain/s dans la cour.
+
+&La petit/e tortue& *avanc/e lentement vers les joli/es fleur/s.
+
+&Les poisson/s rouge/s& *nag/ent dans un grand/ aquarium/ .
+
+&Un lapin/ & *grignot/e une feuille tendre près du buisson.
+
+&Les écureuil/s & *grimp/ent dans les arbre/s.
+
+&Le renard/& *travers/e le champ et *observ/e les lapin/s.
+
+&Les papillon/s jaune/s& *vol/ent au-dessus des fleur/s.
+
+
+# ------------------------------------------------------------
+# NATURE, SAISONS ET METEO
+# ------------------------------------------------------------
+
+&Le vent froi/d& *souffl/e et les branche/s *boug/ent.
+
+&Les nuage/s blan/cs& *cach/ent le soleil.
+
+&La pluie& *mouill/e les chemin/s et les feuille/s.
+
+&Les fleur/s jaune/s& *pouss/ent près du vieux mur.
+
+&Le soleil& *réchauff/e les peti/ts cailloux et la terre.
+
+&Les feuille/s morte/s& *tomb/ent doucement sur le chemin.
+
+
+# ------------------------------------------------------------
+# SPORT, JEUX ET LOISIRS
+# ------------------------------------------------------------
+
+&Les cycliste/s& *pédal/ent sur une route étroi/te.
+
+&Le garçon& *lanc/e le ballon vers les but/s.
+
+&Les joueur/s& *cour/ent derrière la balle.
+
+&La peti/te équipe& *prépar/e le match avec les entraîneur/s.
+
+&Les enfant/s& *construis/ent une cabane avec des branche/s.
+
+
+# ------------------------------------------------------------
+# CUISINE ET DECOUVERTES
+# ------------------------------------------------------------
+
+&Le cuisinier& *coup/e les pomme/s et *prépar/e une tarte.
+
+&Les enfant/s& *mélang/ent la farin/e et les œuf/s.
+
+&Un poussin/& *observ/e les insecte/s sous les feuille/s.
+
+&Les peti/ts gâteau/x& *refroidiss/ent sur la table.
+
+
+# ------------------------------------------------------------
+# IMAGINAIRE ET HUMOUR
+# ------------------------------------------------------------
+
+&Le dragon& *crach/e une flamme bleu/e devant les chevalier/s.
+
+&Les licorne/s& *galop/ent dans une forêt enchanté/e.
+
+&Un peti/t robot& *nettoi/e la maison et *rang/e les jouet/s.
+
+&Les souris& *prépar/ent un grand banquet pour le chat.
+
+&Un chaton/& *condui/t un petit camion rouge dans le salon.
