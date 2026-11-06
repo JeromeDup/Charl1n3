@@ -18,7 +18,7 @@ button{background:#176b37;color:white}button:hover{background:#12572d}.back{back
 @media(max-width:420px){.grid{grid-template-columns:1fr}.problem{max-width:260px;margin:auto;width:100%}}
 @media print{body{background:white;padding:0}main{box-shadow:none;border-radius:0;max-width:none;padding:8mm}.controls{display:none}.grid{row-gap:8mm}.problem{font-size:14pt}.answer{border:1px solid #555;height:9mm}}
 </style></head><body><main>
-<h1>Ajouter ou soustraire des dizaines</h1><p class="instruction">Effectue les 10 calculs, puis clique sur « Vérifier ».</p>
+<h1>Ajouter ou soustraire des dizaines</h1><p class="instruction">Effectue les 12 calculs, puis clique sur « Vérifier ».</p>
 <div id="grid" class="grid" aria-label="Les 10 calculs"></div>
 <div class="controls"><button id="check" type="button">Vérifier</button><span id="score" aria-live="polite"></span><a class="back" href="index.html">Retour</a></div>
 </main>
@@ -34,7 +34,7 @@ button{background:#176b37;color:white}button:hover{background:#12572d}.back{back
  const items=[],seen=new Set();
  for(const op of ["+","-"]) {
    let n=0,tries=0;
-   while(n<5&&tries<5000){tries++;const x=makeOne(op),key=`${x.start}${x.op}${x.operand}`;
+   while(n<6&&tries<5000){tries++;const x=makeOne(op),key=`${x.start}${x.op}${x.operand}`;
      if(!seen.has(key)){seen.add(key);items.push(x);n++;}}
  }
  for(let i=items.length-1;i>0;i--){const j=rnd(0,i);[items[i],items[j]]=[items[j],items[i]];}
@@ -50,7 +50,7 @@ button{background:#176b37;color:white}button:hover{background:#12572d}.back{back
    let good=0;grid.querySelectorAll(".answer").forEach((input,i)=>{
      const s=input.value.trim(),ok=s!==""&&/^\d+$/.test(s)&&Number(s)===items[i].result;
      input.classList.toggle("correct",ok);input.classList.toggle("wrong",!ok);if(ok)good++;
-   });score.textContent=`${good} / 10 corrects`;
+   });score.textContent=`${good} / 12 corrects`;
  });
 })();
 </script></body></html>
